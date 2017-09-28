@@ -1,0 +1,275 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Graduate Curriculum Vitae
+% LaTeX Template
+% Version 1.2 (3/28/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute 
+% (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Modified by:
+% Daniel L Marks <xleafr@gmail.com> 3/28/2015
+%
+% Important note:
+% This template requires the res.cls file to be in the same directory as the
+% .tex file. The res.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%-------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%-------------------------------------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% You can have multiple style options the legal options ones are:
+%
+%   centered:	the name and address are centered at the top of the page 
+%				(default)
+%
+%   line:		the name is the left with a horizontal line then the address to
+%				the right
+%
+%   overlapped:	the section titles overlap the body text (default)
+%
+%   margin:		the section titles are to the left of the body text
+%		
+%   11pt:		use 11 point fonts instead of 10 point fonts
+%
+%   12pt:		use 12 point fonts instead of 10 point fonts
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[margin]{res}  
+
+% Default font is the helvetica postscript font
+\usepackage{helvet}
+
+% Increase text height
+\textheight=700pt
+
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{multirow}
+
+\begin{document}
+
+%-------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%-------------------------------------------------------------------------------
+\name{Julien Cedric Nyambal}
+
+% Note that addresses can be used for other contact information:
+% -phone numbers
+% -email addresses
+% -linked-in profile
+
+% Simulate as if there are 7 lines of address
+\address{\\\\\\\\1408 Noswal Hall\\3 Stiemens Street,2000\\Johannesburg, Gauteng\\South Africa\\Tel: +27(0)83 398 9020 (South Africa)\\Tel: +237 653 81 91 28 (Cameroon)\\E-mail 1: 1439552@students.wits.ac.za\\E-mail 2: Julien.nyambal@gmail.com\\LinkedIn: 
+\href{https://www.linkedin.com/in/juliennyambal}{Julien Nyambal}\\Nationality: Cameroonian\\GitHub: \href{:https://github.com/juliennyambal}{Julien Nyambal}}
+%\phone[mobile]{+27~(0)~83~398~9020}
+%\email{1439552@students.wits.ac.za} 
+% Hence the photo would take 7 lines/rows
+\address{\multirow{7}{*}{\includegraphics[width=2.8cm]{white}}}
+
+% Uncomment to add a third address
+%\address{Address 3 line 1\\Address 3 line 2\\Address 3 line 3}
+%-------------------------------------------------------------------------------
+
+\begin{resume}
+
+%-------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%-------------------------------------------------------------------------------
+\section{EDUCATION}
+\textbf{University of Zululand}\\
+{\sl Bachelor of Science: 2012 - 2014}, Computer Science and Mathematics, 
+\\
+\textbf{University of the Witwatersrand}\\
+{\sl Bachelor of Science(Honours), Passed with Distinction: 2016}, Computer Science,
+\\
+\textbf{University of the Witwatersrand}\\
+{\sl Master of Science: 2017}, Computer Science: Computer Vision, Machine Learning,Full Time, Expected graduation: 2019
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+%	PROJECTS SECTION
+%-------------------------------------------------------------------------------
+\section{UNDER-\\GRADUATE\\PROJECTS}
+\par
+\textbf{Project One - 2013 (Semester Project under Software Engineering: Group)}: 
+SmartDrive has been designed to monitor the usage of the mobile phone while 
+driving a car. SmartDrive blocks incoming SMS’s and calls whilst the user is
+driving. SmartDrive has been built for Android devices. The system has been developed for android devices and has been written using Android SDK.
+I was the project leader, we delivered the system on time with minimal bugs. 
+
+\par
+\textbf{Project Two - 2014 (Semester Project: Individual)}:
+Online (Indigenous) Health Forum , name of my project has been developed to 
+bridge the gap of languages by allow people using different to exchange ideas 
+using the forum as if they were all writing the same language .  This forum has 
+been develop using the Liferay platform. In this project, my aim was to use Liferay framework to dynamically get the words and sentences from one side of the communication and translate it to the corresponding language on the other side. Java was mainly used with the Translator API from Microsoft.
+\par
+
+%-------------------------------------------------------------------------------
+
+\section{HONOURS\\PROJECT}
+\par
+\textbf{Project Three - 2016}:
+Developed an Automated Parking Spot Detection using some Computer Vision and Machine Learning techniques.\\ I have used opencv with Python to predict the occupancy of some parking spot given a parking spot. I trained my dataset using Nvidia Digits under Caffe.  
+\par
+
+\section{MASTERS\\PROJECT}
+\par
+\textbf{Project Three - 2017}:
+Improving the Honours project for automatic detection and comparison between Support Vector Machines and Convolutional Neural Networks. 
+\par
+
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%-------------------------------------------------------------------------------
+\section{COMPUTER\\SKILLS}
+
+\textbf{Languages}:Python(Preferred), C++(Basic), Java(Basic), SQL, \LaTeX, Shell (Bash), Matlab.
+\\
+\textbf{Web Development}: HTML, CSS, PHP, Apache.
+\\
+\textbf{Applications}: Eclipse, Visual Studio, Git, VirtualBox, 
+MySQL, Adobe Dreamweaver, Liferay, Android Studio, Nvidia DiGITS, Caffe (Framework), Scikit-learn, PBS (Cluster Computing).
+\\
+\textbf{Operating Systems}: 
+Linux (Preferred), Windows.
+
+\vspace{0.5mm}
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+%	SOFT SKILLS SECTION
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+%	EXPERIENCE SECTION
+%-------------------------------------------------------------------------------
+% Modify the format of each position
+\begin{format}
+\title{l}\employer{r}\\
+\dates{l}\location{r}\\
+\body\\
+\end{format}
+%-------------------------------------------------------------------------------
+
+\section{EXPERIENCE}
+\employer{Department of Computer Science}
+\location{University of Zululand}
+\dates{2013}
+\title{\textbf{Tutor}}
+\begin{position}
+Java Programming\\
+Introductory to Computing
+\end{position}
+
+\employer{Department of Computer Science}
+\location{University of Zululand}
+\dates{2014}
+\title{\textbf{Tutor}}
+\begin{position}
+Java Programming\\ 
+Introductory to Computing
+\end{position}
+
+\employer{School of Computer Science and Applied Mathematics}
+\location{University of the Witwatersrand}
+\dates{2017}
+\title{\textbf{Tutor}}
+\begin{position}
+	Introduction to Data Structures and Algorithms
+\end{position}
+
+%-------------------------------------------------------------------------------
+%	Awards
+%-------------------------------------------------------------------------------
+\section{AWARDS}
+\begin{itemize}
+\item \textbf{2012} Scholarship (Rector\textsc{\char13}s fund), University of Zululand  
+\item \textbf{2013} 2nd Best Software Engineering group Project Leader 
+\item \textbf{2014} Best 3rd year Computer Science student in Faculty of Science in the University of 
+Zululand
+\item \textbf{2016} CSIR - DST Scholarship, no work-back commitment
+\item \textbf{2016} ABSA - Most Commercially Viable Project - Computer Science
+\item \textbf{2017} CSIR - DST Inter-Programme Bursary, no work-back commitment Award
+\end{itemize}
+
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+%	Languages
+%-------------------------------------------------------------------------------
+\section{LANGUAGES}
+\begin{itemize}
+\item \textbf{French} Native (Written and spoken)
+\item \textbf{English} Fluent (Written and spoken)
+\end{itemize}
+
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+%	References
+%-------------------------------------------------------------------------------
+\section{REFERENCES}
+\begin{enumerate}
+\item \textbf{Name:} Prof. Turgay Celik\\
+\textbf{Institution:} University of the Witwatersrand\\
+\textbf{Position:} Professor\\
+\textbf{Unit:} School of Computer Science and Applied Mathematics\\
+\textbf{E-mail:} Turgay.Celik@wits.ac.za
+\\
+\item \textbf{Name:} Dr. Richard Klein\\ 
+\textbf{Institution:} University of the Witwatersrand\\
+\textbf{Position:} Associate Lecturer\\
+\textbf{Unit:} School of Computer Science and Applied Mathematics\\
+\textbf{E-mail:} Richard.Klein@wits.ac.za
+\\
+\item \textbf{Name:} Dr. Pragasen Mudali\\ 
+\textbf{Institution:} University of Zululand\\
+\textbf{Position:} Senior Lecturer\\
+\textbf{Unit:} Department Computer Science\\
+\textbf{E-mail:} Mudalip@unizulu.ac.za
+\end{enumerate}
+
+
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+%	Extra Activities
+%-------------------------------------------------------------------------------
+\section{EXTRA-\\ACTIVITIES}
+\begin{itemize}
+\item \textbf{2012 - 2014} Playing tennis for the University of Zululand Team (USSA 2012 - USSA 2013)
+\item \textbf{2014} Elected Chairperson Computer Science Society – University of Zululand
+\item \textbf{2014} Elected Vice-Chairperson International Student – University of Zululand
+\item \textbf{2016} Tennis player - Wits
+\item \textbf{2017} Tennis player - Wits
+\end{itemize}
+
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+%	Driving license
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+%	Hobbies
+%-------------------------------------------------------------------------------
+\section{HOBBIES}
+Computer Programming, Sport, Reading, Traveling, Opening electronic stuffs. 
+%-------------------------------------------------------------------------------
+\end{resume}
+\end{document}

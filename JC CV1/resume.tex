@@ -1,0 +1,190 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+    \begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{Julien} \headerlastnamestyle{Nyambal} \\
+	\vspace{2mm}
+	{\faEnvelope\ Julien.nyambal@gmail.com} | {\faMobile\ 00 27 83 398 9020} | {\faMapMarker\ 3 Stiemens Street, Braamfontein, Johannesburg, South Africa} | {\faLink\ https://github.com/juliennyambal}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{Master of Science in Computer Science}
+	{University of the Witwatersrand}
+	{Johannesburg, South Africa}
+	{May 2019}
+	{}
+	\cventry
+	{Bachelor of Science (Honours) in Computer Science}
+	{University of the Witwatersrand}
+	{Johannesburg, South Africa}
+	{May 2017}
+	{GPA: With Distinction}
+	\cventry
+	{Bachelor of Science in Computer Science \& Mathematics}
+	{University of Zululand}
+	{Kwadlangezwa, South Africa}
+	{March 2015}
+	{}
+\end{cventries}
+
+\vspace{-2mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Experience}
+\begin{cventries}
+	\cventry
+	{Teaching Assistant}
+	{University of Witwatersrand}
+	{Johannesburg, South Africa}
+	{June 2017 – November 2017}
+	{\begin{cvitems}
+		\item {Marking assignments, tests, examinations, Tutoring students, Monitoring Laboratory work}
+		\end{cvitems}}
+	\cventry
+	{Teaching Assistant}
+	{University of Zululand}
+	{Kwadlangezwa, South Africa}
+	{February 2013 – November 2014}
+	{\begin{cvitems}
+		\item {Marking assignments, Tutoring students, Monitoring Laboratory work}
+		\end{cvitems}}
+\end{cventries}
+\cvsection{Skills}
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+		Programming Languages:  & {\skill{ Python(fluent), Octave/Matlab, Java, Scala(basic), C++(basic), SQL, LateX, Shell (Bash)}} \\
+		Frameworks:  & {\skill{ Caffe, Keras (Tensorflow), Nvidia DiGITS, Spyder, Git, Android Studio, Scikit-learn, PBS (Cluster Computing).}} \\
+		Operating Systems:  & {\skill{ Ubuntu Linux (Prefered), Windows, MacOS(basic)}} \\
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+
+\vspace{-7mm}
+\cvsection{Projects}
+\begin{cventries}
+	\cventry
+	{SmartDrive has been designed to monitor the usage of the mobile phone while driving a car. SmartDrive blocks incoming SMSs and calls whilst the user is driving. SmartDrive has been built for Android devices. The system has been developed for android devices especially. I was the project leader, we delivered the system on time with minimal bugs.}
+	{SmartDrive}
+	{Android SDK, Java}
+	{}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{Online (Indigenous) Health Forum , name of my project has been developed to bridge the gap of languages by allow people using different to exchange ideas using the forum as if they were all writing the same language . This forum has been develop using the Liferay platform. In this project, my aim was to use Liferay framework to dynamically get the words and sentences from one side of the communication and translate it to the corresponding language on the other side. Java was mainly used with the Translator API from Microsoft.}
+	{Online (Indigenous) Health Forum}
+	{Java, CSS, HTML, Liferay, Microsoft Translate API}
+	{}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{Developed an Automated Parking Space Detection using some Computer Vision and Machine Learning techniques. I have used opencv with Python to predict the occupancy of some parking spot given a parking spot. I trained my dataset using Nvidia Digits under Caffe.}
+	{Automated Parking Space Detection}
+	{Python, Caffe (GPU), nvidia DiGits}
+	{}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{Improving the Honours project for automatic detection and comparison between Support Vector Machines and Convolutional Neural Networks.}
+	{Automated Parking Space Detection}
+	{Python, Keras, Octave/Matlab, Orange}
+	{}
+	{}
+	
+	\vspace{-5mm}
+\end{cventries}
+\cvsection{Honors \& Awards}
+\begin{cvhonors}
+	\cvhonor
+	{Scholarship (Rector\textquotesingle{}s fund), University of Zululand}
+	{Best achiever undergraduate student with annual average of above 80\% in all modules.}
+	{University of Zululand}
+	{2012}
+	\cvhonor
+	{2nd Best Software Engineering group Project Leader (SmartDrive)}
+	{Created and developed the second best working native android for my 2nd year group project. Receive an award of best project leader.}
+	{University of Zululand}
+	{2013}
+	\cvhonor
+	{Best 3rd year Computer Science student in Faculty of Science}
+	{}
+	{University of Zululand}
+	{2014}
+	\cvhonor
+	{DST–CSIR Inter-bursary Support Programme Scholarship}
+	{}
+	{}
+	{2016}
+	\cvhonor
+	{ABSA - Most Commercially Viable Project - Computer Science}
+	{Best poster presentation under the Most Commercially Viable Project category when presenting Honours projects to companies for external assessment.}
+	{University of the Witwatersrand}
+	{2016}
+	\cvhonor
+	{DST–CSIR Inter-bursary Support Programme Scholarship}
+	{}
+	{}
+	{2017}
+	\cvhonor
+	{Won \textquotesingle{}Machine Learning: A probabilistic Perspective by Kevin Murphy\textquotesingle{} at the Deep Learning Indaba 2017}
+	{Poster presentation awarded (Automated Parking Space Detection) for innovative use of deep learning techniques.}
+	{Johannesburg}
+	{September 2017}
+\end{cvhonors}
+\ 
+\end{document}

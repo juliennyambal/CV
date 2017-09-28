@@ -1,0 +1,240 @@
+%% start of file 'template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[letterpaper]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\usepackage{textcomp}
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.90]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\renewcommand{\footrulewidth}{0pt} % line at the bottom
+% will have a thickness of 0 pts; ie, no line
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\cfoot{Julien Nyambal}
+
+    % Profile
+\name{Julien Nyambal}{}
+\address{3 Stiemens Street, Braamfontein\\, Johannesburg, South Africa\\}
+\phone[mobile]{00 27 83 398 9020}
+\email{Julien.nyambal@gmail.com}
+\homepage{https://github.com/juliennyambal}
+    \begin{document}
+\makecvtitle
+\section{Education}
+\cventry
+{- 2019}
+{Master of Science in Computer Science (Machine Learning - Computer Vision)}
+{University of the Witwatersrand}
+{}
+{\textit{Johannesburg, South Africa}}
+{}
+\cventry
+{May 2017}
+{Bachelor of Science (Honours) in Computer Science}
+{University of the Witwatersrand}
+{Passed with Distinction}
+{\textit{Johannesburg, South Africa}}
+{}
+\cventry
+{March 2015}
+{Bachelor of Science in Computer Science \& Mathematics}
+{University of Zululand}
+{}
+{\textit{Kwadlangezwa, South Africa}}
+{}
+\section{Experience}
+\cventry
+{June 2017 -- Present}
+{Teaching Assistant}
+{University of Witwatersrand}
+{Johannesburg, South Africa}
+{}
+{\begin{itemize}%
+	\item Marking assignments, tests, examinations, Tutoring students, Monitoring Laboratory work
+	\end{itemize}}
+\cventry
+{February 2013 -- November 2014}
+{Teaching Assistant}
+{University of Zululand}
+{Kwadlangezwa, South Africa}
+{}
+{\begin{itemize}%
+	\item Marking assignments, Tutoring students, Monitoring Laboratory work
+	\end{itemize}}
+\section{Skills}
+\cvitem{Programming Languages}{ Python(fluent), Octave/Matlab, Java, Scala(basic), C++(basic), LateX, Shell (Bash)}
+\cvitem{Frameworks}{Caffe, Keras (Tensorflow), Nvidia DiGITS, Git, Android Studio}
+\cvitem{Operating Systems}{Ubuntu Linux (Prefered), Windows, MacOS(basic)}
+\section{Projects}
+\cventry
+{}
+{SmartDrive}
+{}
+{\textit{Android SDK, Java}}
+{}
+{SmartDrive has been designed to monitor the usage of the mobile phone while driving a car. SmartDrive blocks incoming SMSs and calls whilst the user is driving. SmartDrive has been built for Android devices. The system has been developed for android devices especially. I was the project leader, we delivered the system on time with minimal bugs.\\}
+	\vspace{1mm}
+	\cventry
+	{}
+	{Online (Indigenous) Health Forum}
+	{}
+	{\textit{Java, CSS, HTML, Liferay, Microsoft Translate API}}
+	{}
+	{Online (Indigenous) Health Forum, name of my project has been developed to bridge the gap of languages by allow people using different to exchange ideas using the forum as if they were all writing the same language. This forum has been developed using the Liferay platform. In this project, my aim was to use Liferay framework to dynamically get the words and sentences from one side of the communication and translate it to the corresponding language on the other side. Java was mainly used with the Translator API from Microsoft.\\}
+		\vspace{1mm}
+		\cventry
+		{}
+		{Automated Parking Space Detection}
+		{}
+		{\textit{Python, Caffe (GPU), nvidia DiGits}}
+		{}
+		{Developed an Automated Parking Space Detection using some Computer Vision and Machine Learning techniques. I have used opencv with Python to predict the occupancy of some parking spot given a parking spot. I trained my dataset using Nvidia Digits under Caffe.\\}
+			\vspace{1mm}
+			\cventry
+			{}
+			{Automated Parking Space Detection}
+			{}
+			{\textit{Python, Keras, Octave/Matlab, Scikit-learn}}
+			{}
+			{Improving the Honours project for automatic detection and comparison between Support Vector Machines and Convolutional Neural Networks.\\}
+				\vspace{1mm}
+				\section{Awards}
+				\cventry
+				{Rector\textquotesingle{}s fund}
+				{Merit Award, University of Zululand}
+				{}
+				{\textit{2012}}
+				{}
+				{Best achiever undergraduate student with annual average of above 80\% in all modules.\\University of Zululand}
+				\vspace{1mm}
+				\cventry
+				{Project Award}
+				{2nd Best Software Engineering group Project Leader (SmartDrive)}
+				{}
+				{\textit{2013}}
+				{}
+				{Created and developed the second best working native android for my 2nd year group project. Receive an award of best project leader.\\University of Zululand}
+				\vspace{1mm}
+				\cventry
+				{Faculty Award}
+				{Best 3rd year Computer Science student in Faculty of Science}
+				{}
+				{\textit{2014}}
+				{}
+				{University of Zululand}
+				\vspace{1mm}
+				\cventry
+				{DST-CSIR}
+				{Inter-bursary Support Programme Scholarship}
+				{}
+				{\textit{2016}}
+				{}
+				{}
+				\vspace{1mm}
+				\cventry
+				{ABSA}
+				{Most Commercially Viable Project - Computer Science}
+				{}
+				{\textit{2016}}
+				{}
+				{Best poster presentation under the Most Commercially Viable Project category when presenting Honours projects to companies for external assessment.\\University of the Witwatersrand, Johannesburg}
+				\vspace{1mm}
+				\cventry
+				{DST–CSIR}
+				{Inter-bursary Support Programme Scholarship}
+				{}
+				{\textit{2017}}
+				{}
+				{}
+				\vspace{1mm}
+				\cventry
+				{Deep Learning Indaba 2017}
+				{Won \textquotesingle{}Machine Learning: A probabilistic Perspective by Kevin Murphy\textquotesingle{}}
+				{}
+				{\textit{September 2017}}
+				{}
+				{Poster presentation awarded (Automated Parking Space Detection) for innovative use of deep learning techniques.\\University of the Witwatersrand, Johannesburg}
+				\vspace{1mm}
+				\ 
+				
+\section{Extracurricular Activity}
+\cventry
+{2012 - 2014}
+{Playing tennis for the University of Zululand Team (USSA 2012 - USSA 2013)}
+{University of Zululand}
+{}
+{\textit{}}
+{}
+\cventry
+{2014}
+{Elected Chairperson Computer Science Society}
+{University of Zululand}
+{}
+{\textit{}}
+{}
+\cventry
+{2014}
+{Elected Vice-Chairperson International Student}
+{University of Zululand}
+{}
+{\textit{}}
+{}	
+\cventry
+{2016-Present}
+{Wits Tennis player}
+{University of the Witwatersrand}
+{}
+{\textit{}}
+{}
+
+\section{References}
+\cventry
+{1-}
+{Dr. Richard Klein}
+{}
+{\textit{Associate Lecturer}}
+{}
+{\textbf{Institution:} University of the Witwatersrand\\
+	\textbf{Unit:} School of Computer Science and Applied Mathematics\\
+	\textbf{E-mail:} Richard.Klein@wits.ac.za\\}
+\vspace{1mm}
+
+\cventry
+{2-}
+{Dr. Pragasen Mudali}
+{}
+{\textit{Senior Lecturer}}
+{}
+{\textbf{Institution:} University of Zululand\\
+	\textbf{Unit:} Department Computer Science\\
+	\textbf{E-mail:} Mudalip@unizulu.ac.za}
+\vspace{1mm}
+
+\cventry
+{3-}
+{Prof. Turgay Celik}
+{}
+{\textit{Professor}}
+{}
+{\textbf{Institution:} University of the Witwatersrand\\
+	\textbf{Unit:} School of Computer Science and Applied Mathematics\\
+	\textbf{E-mail:} Turgay.Celik@wits.ac.za}
+\vspace{1mm}
+\end{document}
