@@ -18,6 +18,11 @@
 \usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
 %\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
 
+\usepackage{natbib}
+\usepackage{bibentry}
+\nobibliography*
+\bibliographystyle{apalike}
+
 % adjust the page margins
 \usepackage[scale=0.90]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
@@ -180,12 +185,15 @@
 				{}
 				{}
 				\vspace{1mm}
-				
+
+\nobibliography{publication}
+
+	
 \section{Publications}
 \cventry
 {2017}
-{Playing tennis for the University of Zululand Team (USSA 2012 - USSA 2013)}
-{University of Zululand}
+{\bibentry{8261114}}
+{}
 {}
 {\textit{}}
 {}
