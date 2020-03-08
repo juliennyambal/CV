@@ -32,6 +32,7 @@
 \renewcommand{\footrulewidth}{0pt} % line at the bottom
 % will have a thickness of 0 pts; ie, no line
 \usepackage{fancyhdr}
+
 \pagestyle{fancy}
 \cfoot{Julien Nyambal}
 
@@ -45,7 +46,7 @@
 	\href{https://www.linkedin.com/in/juliennyambal}{LinkedIn}\\
 	\href{https://stackoverflow.com/users/2781787/julien-nyambal}{StackOverFlow}
 }
-    \begin{document}
+\begin{document}
 \makecvtitle
 
 %\section{Personal Information}
@@ -82,7 +83,7 @@
 \section{Education}
 \cventry
 {2019 - Present}
-{PhD in Computer Science (Machine Learning), Supervisor: Dr. Richard Klein}
+{PhD in Computer Science (Machine Learning). Supervisors: Dr. Richard Klein \& Prof. Turgay Celik}
 {University of the Witwatersrand}
 {}
 {\textit{Johannesburg, South Africa}}
@@ -111,15 +112,14 @@
 \section{Professional Experience}
 
 \cventry
-{04/2018 -- Present}
-{Software Developer, Data Scientist}
-{Retro Rabbit}
+{12/2019 -- Present}
+{Software Engineer, Data Scientist}
+{Entelect}
 {Johannesburg, South Africa}
 {}
 {\begin{itemize}%
-		\item \textbf{Automatic Parking Space Detection}: Improving the Honours project for automatic detection and comparison between Support Vector Machines (SVM) and Convolutional Neural Networks (CNN). We noticed that joining CNN as feature extractor and the SVM as classifier (linear or RBF) was slightly better than the CNN.
-		\item \textbf{\href{https://www.kalido.me/}{Kalido}}: My role was to writes python scripts to enhance the current machine learning model responsible for matching two requests that where english user sentences. The management of all the requests where handle using Spark mostly. I implemeted the autoscaling infrastructure using ECS and leaving the images in ECR. That was to increase the faster ingestion of the request in production. 
-		\item \textbf{\href{http://www.marketedge.nedbank.co.za/}{Market Edge 3.0}}: I am currently in the data team and responsible for data analysis and data modeling. I deal with millions of transactional data that will help me to create user personas based on their spending habit using some machine learning algorithms like clustering.
+		\item \textbf{Standard Bank: Forex Customer Analysis}: Using time series to understand trends around the user bahaviour with regards to the Forex changes between the Rand (ZAR), the US Dollar (USD) and the Nigerian Naira (NGN)
+		\item \textbf{Standard Bank: Internal Incident Reporting System RMP}: Adding the GraphDB feature to the system, and helping with creating a data flow between the data lake and the graphDB.  
 \end{itemize}}
 
 \cventry
@@ -129,9 +129,20 @@
 {Johannesburg, South Africa}
 {}
 {\begin{itemize}%
-		\item Introduction to Programming and Algorithms
-		\item Introduction to Data Structures And Algorithms 
-	\end{itemize}}
+		\item Introduction to Programming and Algorithms, COMS 1022A
+		\item Introduction to Data Structures And Algorithms COMS 1017A
+\end{itemize}}
+
+\cventry
+{04/2018 -- 12/2019}
+{Software Developer, Data Scientist}
+{Retro Rabbit}
+{Johannesburg, South Africa}
+{}
+{\begin{itemize}%
+		\item \textbf{\href{https://www.kalido.me/}{Kalido}}: My role was to writes python scripts to enhance the current machine learning model responsible for matching two requests that were english user sentences. The management of all the requests where handle using Spark mostly. I implemented the autoscaling infrastructure using AWS ECS and leaving the images in AWS ECR. That was to increase the faster ingestion of the request in production. 
+		\item \textbf{Nedbank \href{http://www.marketedge.nedbank.co.za/}{Market Edge 3.0}}: I am currently in the data team and responsible for data analysis and data modeling. I deal with millions of transactional data that will help me to create user personas based on their spending habit using some machine learning algorithms like clustering.
+\end{itemize}}
 
 \cventry
 {06/2017 -- 04/2018}
@@ -153,7 +164,7 @@
 	\end{itemize}}
 \section{Skills}
 \cvitem{Languages}{Python(fluent), SQL, Golang (intermediate), Java, Scala(basic), C++(basic), \LaTeX, Shell/Bash (intermediate)}
-\cvitem{Frameworks}{Keras ,Tensorflow, Git}
+\cvitem{Frameworks}{Keras ,Tensorflow, Git, PowerBI, Neo4J}
 \cvitem{OS}{Ubuntu Linux(Prefered), Windows (intermediate), MacOS(basic)}
 \cvitem{Others}{Docker, AWS(ECS, EC2), Kubernetes(basic), Hadoop(basic), Spark(Intermediate)}
 			
@@ -183,7 +194,7 @@
 \section{Talks}
 \cventry
 {4 April 2018}
-{Introduction to Machine Learning and Deep Learning}
+{Introduction to Machine Learning and Deep Learning: \href{http://www.deeplearningindaba.com/indabax-centrafrique.html}{Indaba X Cameroon 2018}}
 {Deep learning IndabaX Centrafrique}
 {Ecole Nationale Supérieure Polytechnique de Yaoundé - Cameroon}
 {}
@@ -191,7 +202,8 @@
 
 \cventry
 {7 September 2018}
-{Computer vision in your daily life}
+{Computer vision in your daily life: \href{https://www.youtube.com/watch?v=0Z--tiJ3FyE}
+	{Retro Rabbit Conference}}
 {Retro Rabbit Conference}
 {Retro Rabbit Pretoria - South Africa}
 {}
@@ -199,7 +211,7 @@
 
 \cventry
 {2 April 2019}
-{Machine Learning in Production}
+{Machine Learning in Production:    \href{https://indabaxcameroon.github.io}{Indaba X Cameroon 2019}}
 {Deep learning IndabaX Cameroon}
 {L'Institut Français du Cameroun - Cameroon}
 {}
@@ -207,9 +219,17 @@
 
 \cventry
 {3 May 2019}
-{Deep Learning and its application}
+{Deep Learning and its application: \href{https://sites.google.com/view/indabaxethiopia2019/speakers?authuser=0}{Indaba X Ethiopia 2019}}
 {Deep learning IndabaX Ethiopia}
 {Wolaita Sodo University - Ethiopia}
+{}
+{}
+
+\cventry
+{20 February 2020}
+{Deep Learning and its application: \href{https://www.meetup.com/Johannesburg-Artificial-Intelligence-Meetup/events/268234198/}{Johannesburg // AI - Machine Learning - Chatbots}}
+{Johannesburg // AI - Machine Learning - Chatbots}
+{Johannesburg - South Africa}
 {}
 {}
 	
@@ -262,5 +282,16 @@
 {\textbf{Institution:} University of the Witwatersrand\\
 	\textbf{Unit:} School of Computer Science and Applied Mathematics\\
 	\textbf{E-mail:} Turgay.Celik@wits.ac.za}
+\vspace{1mm}
+
+\cventry
+{4-}
+{Jade Abbott}
+{}
+{}
+{}
+{\textbf{Company:} Retro Rabbit\\
+	\textbf{Role:} Machine Learning Engineer\\
+	\textbf{E-mail:} Jabbott@retrorabbit.co.za}
 \vspace{1mm}
 \end{document}
