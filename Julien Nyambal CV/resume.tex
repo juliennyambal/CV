@@ -25,7 +25,7 @@
 \bibliographystyle{apalike}
 
 % adjust the page margins
-\usepackage[scale=0.90]{geometry}
+\usepackage[scale=0.9]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
@@ -38,7 +38,7 @@
 
     % Profile
 \name{Julien Nyambal}{}
-\address{301 Florida Park Complex\\ 78 Daniel Malan Avenue\\ Florida Park, Roodepoort, South Africa\\}
+\address{39 Eugene Street\\ Helderkruin\\ 1724\\ Gauteng, South Africa\\}
 \phone[mobile]{00 27 83 398 9020}
 \email{Julien.nyambal@gmail.com}
 \extrainfo{%
@@ -83,7 +83,7 @@
 \section{Education}
 \cventry
 {2019 - Present}
-{PhD in Computer Science (Machine Learning). Supervisors: Dr. Richard Klein \& Prof. Turgay Celik}
+{PhD in Computer Science (Machine Learning), Supervisors: Dr. Richard Klein \& Prof. Turgay Celik}
 {University of the Witwatersrand}
 {}
 {\textit{Johannesburg, South Africa}}
@@ -107,46 +107,101 @@
 {Bachelor of Science in Computer Science \& Mathematics}
 {University of Zululand}
 {}
-{\textit{Kwadlangezwa, South Africa}}
+{\textit{KwaDlangezwa, South Africa}}
 {}
 \section{Professional Experience}
 
 \cventry
-{12/2019 -- Present}
-{Software Engineer, Data Scientist}
+{Dec 2019 -- Present}
+{Machine Learning Engineer}
 {Entelect}
 {Johannesburg, South Africa}
 {}
 {\begin{itemize}%
-		\item \textbf{Standard Bank: Forex Customer Analysis}: Using time series to understand trends around the user bahaviour with regards to the Forex changes between the Rand (ZAR), the US Dollar (USD) and the Nigerian Naira (NGN)
-		\item \textbf{Standard Bank: Internal Incident Reporting System RMP}: Adding the GraphDB feature to the system, and helping with creating a data flow between the data lake and the graphDB.
-		\item \textbf{Standard bank: Internal Credit market Data}: My team and I wrote from ground up a system that pulls data from different forex sources to make it available to the bank for internal use. I mainly built the whole Python API base using Flask and Swagger. Thereafter build a docker replica image of the system. I wrote in Python different mathematical formulae use for some internal processes like the Dividend Yield. I also persist most of the transactions to both Mongo and SQL Server Management Studio (SSMS).
+		\item \textbf{Standard Bank: Corporate Investment Banking - FX Tips} (Sept 2020 - Present): 
+		\begin{itemize}
+			\item \textbf{Project Description}: Hinting or Recommend clients on potential Forex transactions (leads) they can make using their transactions across multiple financial systems. 
+			\item \textbf{Responsibilities}:
+			\begin{itemize}
+				\item Built from scratch and maintain Data Engineering end2end pipelines, from data ingestion to leads delivery,
+				\item Responsible for major decisions on the Design and Architecture of the solution,
+				\item Supported and advised on Machine Learning models to use in the process, and integration in the pipeline,
+				\item Mentored junior developers and guided data scientists throughout development
+		\end{itemize}
+		\end{itemize}
+		\item \textbf{Standard Bank: Corporate Investment Banking - Internal Credit Market Data} (April 2020 - Sept 2020): 
+		\begin{itemize}
+			\item \textbf{Project Description}: Help the Risk department of the bank to have an aggregated set of financial information on daily basis using trusted financial data sources.
+			\item \textbf{Responsibilities}:
+			\begin{itemize}
+				\item Built from scratch a Python Backend system to seamlessly pull financial data and summarize currency pairs and valuable information out of them, API endpoints,
+				\item Build REST API to control the daily pulls and internal calculations,
+				\item Wrote from scratch mathematical calculations from C\# to Python since using Python stack
+			\end{itemize}
+		\end{itemize}
+		\item \textbf{Standard Bank: Personal Business Banking - Internal Incident Reporting System RMP} (March 2020 - April 2020): 
+		\begin{itemize}
+		\item \textbf{Project Description}: Enhance incident reporting in the banks systems using NLP and GraphDB as opposed to relational DB. It reduced human interaction and faster ticket assignment.
+		\item \textbf{Responsibilities}:
+		\begin{itemize}
+			\item Making incident reports in the back escalating quicker using NLP,
+			\item Assisted in building GraphDB representation of the hierarchy in the bank,
+		\end{itemize}
+		\end{itemize}		
+		\item \textbf{Standard Bank: Personal Business Banking - Forex Customer Analysis} (Dec 2019 - Jan 2020): 
+		\begin{itemize}
+		\item \textbf{Project Description}: POC to try to predict currency pair value using time series and RNN.
+		\item \textbf{Responsibilities}:
+		\begin{itemize}
+			\item Exploring and Analysing Forex data (time series) to draw potential pattern.
+		\end{itemize}
+	\end{itemize}
 \end{itemize}}
 
 \cventry
-{02/2019 -- Present}
+{Feb 2019 -- Jan 2021}
 {Part Time Lecturer}
 {University of the Witwatersrand}
 {Johannesburg, South Africa}
 {}
 {\begin{itemize}%
 		\item Introduction to Programming and Algorithms, COMS 1022A
-		\item Introduction to Data Structures And Algorithms COMS 1017A
+		\item Introduction to Data Structures And Algorithms, COMS 1017A
+		\item Computer Networks, COMS 2014A
 \end{itemize}}
-
 \cventry
-{04/2018 -- 12/2019}
-{Software Developer, Data Scientist}
+{Apr 2018 -- Dec 2019}
+{Machine Learning Engineer}
 {Retro Rabbit}
 {Johannesburg, South Africa}
 {}
 {\begin{itemize}%
-		\item \textbf{\href{https://www.kalido.me/}{Kalido}}: My role was to writes python scripts to enhance the current machine learning model responsible for matching two requests that were english user sentences. The management of all the requests where handle using Spark mostly. I implemented the autoscaling infrastructure using AWS ECS and leaving the images in AWS ECR. That was to increase the faster ingestion of the request in production. 
-		\item \textbf{Nedbank \href{https://www.nedbank.co.za/content/nedbank/desktop/gt/en/personal/nedbank-money/avo.html}{Avo by Nedbank}}: I was part of the data team and responsible for data analysis and data modelling. I dealt with millions of transactional data from the customers of Nedbank that helped to create user personas based on their spending habits using some machine learning algorithms like clustering. This allowed me to build a system to tailor the offers based on the users balance. I was mostly working in the back-end side of the app that includes the PowerBI dashboard for the app interactions, the different transactions between components using AWS Lambda, RDS and EC2.
-\end{itemize}}
+		\item \textbf{Nedbank \href{https://www.nedbank.co.za/content/nedbank/desktop/gt/en/personal/nedbank-money/avo.html}{Avo by Nedbank}} (Apr 2019 - Nov 2019): 
+		\begin{itemize}
+			\item \textbf{Project Description}: Customizing offering to clients based on the spending habits,
+			\item \textbf{Responsibilities}:
+			\begin{itemize}
+				\item Performed Data Analysis and Exploration for client segmentation on credit cards transactional data on over one year,
+				\item Built and evaluated models for client segmentation,
+				\item Assisted in designing and building the PowerBI dashboard for better targeting of high spending clients in South Africa. 
+			\end{itemize}
+		\end{itemize}
+		\item \textbf{\href{https://www.kalido.me/}{Kalido}} (April 2018 - April 2019): 
+		\begin{itemize}
+			\item \textbf{Project Description}: Enabling clients to hire or provide services based on skills and proximity.
+			\item \textbf{Responsibilities}:
+			\begin{itemize}
+			\item Enhanced and supported the backend Machine Learning Architecture in place,
+			\item Machine Learning Model Investigation and selection for the solution,
+			\item Set up the AWS ECR environment to replace the current Hadoop Yarn Structure,
+			\item Increase clients matching with data analysis, AB testing and multi-model competitions (SageMaker was not yet available yet)
+		\end{itemize}
+		\end{itemize}
+	\end{itemize}
+}
 
 \cventry
-{06/2017 -- 04/2018}
+{Jun 2017 -- Apr 2018}
 {Teaching Assistant}
 {University of Witwatersrand}
 {Johannesburg, South Africa}
@@ -155,7 +210,7 @@
 	\item Marking assignments, tests, invigilations, tutoring, monitoring laboratory work
 	\end{itemize}}
 \cventry
-{02/2013 -- 11/2014}
+{Feb 2013 -- Nov 2014}
 {Teaching Assistant}
 {University of Zululand}
 {Kwadlangezwa, South Africa}
@@ -163,23 +218,21 @@
 {\begin{itemize}%
 	\item Marking assignments, tutoring, monitoring laboratory work
 	\end{itemize}}
-\section{Skills}
-\cvitem{Languages}{Python(fluent), Golang (intermediate), Java, Scala(basic), C++(basic), \LaTeX, Shell/Bash (intermediate), MQL5 (Basic)}
-\cvitem{Frameworks}{Keras ,Tensorflow, Git, PowerBI, Neo4J}
-\cvitem{Databases}{Mongo, MySQL, SSMS, RDS, Redshift}
-\cvitem{OS}{Ubuntu Linux(Prefered), Windows, MacOS(Basic)}
-\cvitem{Others}{Docker, AWS(ECS, EC2), Kubernetes(basic), Hadoop(basic), Spark(Intermediate)}
-			
-\vspace{1mm}
 
-\nobibliography{publication}
+\section{Spoken Languages}
 
-	
-\section{Publications}
 \cventry
-{2017}
-{\bibentry{8261114}}
 {}
+{English}
+{Professional Level}
+{}
+{}
+{}
+
+\cventry
+{}
+{French}
+{Native}
 {}
 {}
 {}
@@ -187,10 +240,34 @@
 \section{Training \& Certifications}
 
 \cventry
+{April 2021}
+{Microsoft Certified: Azure AI Fundamentals}
+{\href{https://www.credly.com/badges/80d60ce2-32b0-475e-9959-05b452f9355a/public_url}{Link to Certificate}}
+{MS Azure}
+{}
+{}
+
+\cventry
+{April 2021}
+{Microsoft Certified: Azure Data Fundamentals}
+{\href{https://www.credly.com/badges/a08ad4dc-3cee-4771-9183-561a33e3ae81/public_url}{Link to Certificate}}
+{MS Azure}
+{}
+{}
+
+\cventry
 {May 2020}
-{AWS Certified Cloud Practitioner}
-{\href{https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2020-05-30&ci=AWS01387974}{Link to Certificate}}
+{AWS Certified: Cloud Practitioner}
+{\href{https://www.certmetrics.com/amazon/public/transcript.aspx?transcript=52TEQ442BE4QQ3KC}{Link to Certificate}}
 {AWS}
+{}
+{}
+
+\cventry
+{Sept 2020}
+{Microsoft Certified: Azure Fundamentals}
+{\href{https://www.youracclaim.com/badges/ee4c4a98-5687-4fcf-8fce-7ee92249e54f?source=linked_in_profile}{Link to Certificate}}
+{MS Azure}
 {}
 {}
 
@@ -209,11 +286,22 @@
 {CSIR}
 {}
 {}
+			
+\vspace{1mm}
+
 
 \section{Talks}
 
 \cventry
-{20 February 2020}
+{March 2021}
+{Why GPUs for Machine Learning?}
+{Internal Entelect Conference}
+{Johannesburg - South Africa}
+{}
+{}
+
+\cventry
+{February 2020}
 {Deep Learning and its application: \href{https://www.meetup.com/Johannesburg-Artificial-Intelligence-Meetup/events/268234198/}{Johannesburg // AI - Machine Learning - Chatbots}}
 {Johannesburg // AI - Machine Learning - Chatbots}
 {Johannesburg - South Africa}
@@ -222,7 +310,7 @@
 
 
 \cventry
-{3 May 2019}
+{May 2019}
 {Deep Learning and its application: \href{https://sites.google.com/view/indabaxethiopia2019/speakers?authuser=0}{Indaba X Ethiopia 2019}}
 {Deep learning IndabaX Ethiopia}
 {Wolaita Sodo University - Ethiopia}
@@ -230,7 +318,7 @@
 {}
 
 \cventry
-{2 April 2019}
+{April 2019}
 {Machine Learning in Production:    \href{https://indabaxcameroon.github.io}{Indaba X Cameroon 2019}}
 {Deep learning IndabaX Cameroon}
 {L'Institut Français du Cameroun - Cameroon}
@@ -239,7 +327,7 @@
 
 
 \cventry
-{7 September 2018}
+{Sept 2018}
 {Computer vision in your daily life: \href{https://www.youtube.com/watch?v=0Z--tiJ3FyE}
 	{Retro Rabbit Conference}}
 {Retro Rabbit Conference}
@@ -248,17 +336,59 @@
 {}
 
 \cventry
-{4 April 2018}
+{April 2018}
 {Introduction to Machine Learning and Deep Learning: \href{http://www.deeplearningindaba.com/indabax-centrafrique.html}{Indaba X Cameroon 2018}}
 {Deep learning IndabaX Centrafrique}
 {Ecole Nationale Supérieure Polytechnique de Yaoundé - Cameroon}
 {}
 {}
 	
-\section{Extracurricular Activity}	
+\vspace{9mm}	
+
+\section{Academic Activities}	
 
 \cventry
-{2 - 4 April 2019}
+{Nov. 2021}
+{Reviewer Black In AI}
+{NEURIPS Workshop}
+{}
+{}
+{}
+
+\cventry
+{May 2021}
+{Reviewer Black In AI Research Grant}
+{NEURIPS Workshop}
+{}
+{}
+{}
+
+\cventry
+{October 2020}
+{Reviewer Black In AI}
+{NEURIPS Workshop}
+{}
+{}
+{}
+
+\cventry
+{October 2019}
+{Reviewer Black In AI}
+{NEURIPS Workshop}
+{}
+{}
+{}
+
+\cventry
+{August 2019}
+{Tutor}
+{Deep Learning Indaba, Kenya 2019}
+{}
+{}
+{}
+
+\cventry
+{April 2019}
 {Co-Organizer Deep learning IndabaX Cameroon}
 {French Institute - Yaounde, Cameroon}
 {}
@@ -267,7 +397,7 @@
 
 
 \cventry
-{4 - 6 April 2018}
+{April 2018}
 {Co-Organizer Deep learning IndabaX Centrafrique}
 {Ecole Nationale Supérieure Polytechnique de Yaoundé - Cameroon}
 {}
@@ -275,48 +405,98 @@
 {}
 
 
-\section{References}
-\cventry
-{1-}
-{Dr. Richard Klein}
-{}
-{\textit{Lecturer}}
-{}
-{\textbf{Institution:} University of the Witwatersrand\\
-	\textbf{Unit:} School of Computer Science and Applied Mathematics\\
-	\textbf{E-mail:} Richard.Klein@wits.ac.za}
-\vspace{1mm}
+\section{Achievements I am Proud of}
 
 \cventry
-{2-}
-{Dr. Pravesh Ranchod}
+{2017}
+{Inter-Bursary Support Programme Scholarship}
+{Department of Science and Technology of South Africa - Council for Scientific and Industrial Research Merit Bursary}
+{DST - CSIR for my Master's at The University of the Witwatersrand.}
+{South Africa}
 {}
-{\textit{Lecturer}}
-{}
-{\textbf{Institution:} University of the Witwatersrand\\
-	\textbf{Unit:} School of Computer Science and Applied Mathematics\\
-	\textbf{E-mail:} Pravesh.Ranchod@wits.ac.za}
-\vspace{1mm}
 
 \cventry
-{3-}
-{Prof. Turgay Celik}
+{2017}
+{Won Machine Learning: A probabilistic Perspective by Kevin Murphy - 3rd Place}
+{Poster presentation awarded (Automated Parking Space Detection) for innovative use of deep learning techniques.}
+{Deep Learning Indaba}
+{South Africa}
 {}
-{\textit{Professor}}
-{}
-{\textbf{Institution:} University of the Witwatersrand\\
-	\textbf{Unit:} School of Computer Science and Applied Mathematics\\
-	\textbf{E-mail:} Turgay.Celik@wits.ac.za}
-\vspace{1mm}
 
 \cventry
-{4-}
-{Jade Abbott}
+{2016}
+{Inter-Bursary Support Programme Scholarship}
+{Department of Science and Technology of South Africa - Council for Scientific and Industrial Research Merit Bursary}
+{DST - CSIR for my Honours (4$^{th}$ year) at The University of the Witwatersrand.}
+{South Africa}
+{}
+
+
+\cventry
+{2016}
+{Best poster presentation under the Most Commercially Viable Project category when presenting my Honours (4$^{th}$ year) projects to companies for external assessment.}
+{Most Commercially Viable Project - Computer Science}
+{ABSA - University of the Witwatersrand}
+{South Africa}
+{}
+
+\cventry
+{2014}
+{Best 3rd year Computer Science student in Faculty of Science}
+{Highest marks amongst of final year students on the department of Computer Science}
+{University of Zululand}
+{South Africa}
+{}
+
+
+\cventry
+{2013}
+{2nd Best Software Engineering group Project Leader (SmartDrive)}
+{Built and lead the second best working native android for my 2nd year group project. Receive an award of best project leader.}
+{University of Zululand}
+{South Africa}
+{}
+
+\cventry
+{2012}
+{Merit Award Scholarship (Rector’s fund)}
+{Best achiever undergraduate student with annual average of above 80\% in all modules}
+{University of Zululand}
+{University of Zululand}
+{South Africa}
+{}
+
+\section{Extracurricular Activity}
+\cventry
+{2012 - 2014}
+{Playing tennis for the University of Zululand Team (USSA Tournaments 2012 \& 2013)}
+{University	of Zululand}
+{South Africa}
 {}
 {}
+
+\cventry
+{2014}
+{Elected Chairperson Computer Science Society}
+{University	of Zululand}
+{South Africa}
 {}
-{\textbf{Company:} Retro Rabbit\\
-	\textbf{Role:} Machine Learning Engineer\\
-	\textbf{E-mail:} Jabbott@retrorabbit.co.za}
-\vspace{1mm}
+{}
+
+\cventry
+{2014}
+{Elected Vice-Chairperson International Student Society}
+{University	of Zululand}
+{South Africa}
+{}
+{}
+
+\cventry
+{2016 - 2018}
+{Wits Tennis Player}
+{University	of the Witwatersrand}
+{South Africa}
+{}
+{}
+
 \end{document}
