@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.12.5)  3 DEC 2021 11:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.12.5)  3 DEC 2021 12:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -965,11 +965,11 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: 56C46C0EE68C9F3CFE0590735AE3D433;1112.
  ) 
 Here is how much of TeX's memory you used:
- 24467 strings out of 492623
- 437544 string characters out of 6133290
+ 24463 strings out of 492623
+ 437500 string characters out of 6133290
  512979 words of memory out of 5000000
  28088 multiletter control sequences out of 15000+600000
- 617341 words of font info for 107 fonts, out of 8000000 for 9000
+ 617140 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  47i,13n,65p,793b,738s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2019
@@ -982,7 +982,7 @@ ype1/public/lm/lmr10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr1
 019/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2019/texmf-dist/fon
 ts/type1/public/lm/lmro10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/ma
 rvosym/marvosym.pfb>
-Output written on resume.pdf (4 pages, 217994 bytes).
+Output written on resume.pdf (4 pages, 218020 bytes).
 PDF statistics:
  126 PDF objects out of 1000 (max. 8388607)
  108 compressed objects within 2 object streams
