@@ -88,8 +88,8 @@
   \setlength{\parskip}{0\p@}}
 
 % optional maketitle width to force a certain width (if set to 0pt, the width is calculated automatically)
-\newlength{\makecvtitlenamewidth}
-\setlength{\makecvtitlenamewidth}{0pt}% dummy value
+\newlength{\makecvheadnamewidth}
+\setlength{\makecvheadnamewidth}{0pt}% dummy value
 \renewcommand*{\makecvtitle}{%
   % recompute lengths (in case we are switching from letter to resume, or vice versa)
   \recomputecvlengths%
@@ -125,10 +125,10 @@
   % name and title
   \newlength{\makecvtitledetailswidth}\settowidth{\makecvtitledetailswidth}{\usebox{\makecvtitledetailsbox}}%
   \newlength{\makecvtitlepicturewidth}\settowidth{\makecvtitlepicturewidth}{\usebox{\makecvtitlepicturebox}}%
-  \ifthenelse{\lengthtest{\makecvtitlenamewidth=0pt}}% check for dummy value (equivalent to \ifdim\makecvtitlenamewidth=0pt)
-    {\setlength{\makecvtitlenamewidth}{\textwidth-\makecvtitledetailswidth-\makecvtitlepicturewidth}}%
+  \ifthenelse{\lengthtest{\makecvheadnamewidth=0pt}}% check for dummy value (equivalent to \ifdim\makecvheadnamewidth=0pt)
+    {\setlength{\makecvheadnamewidth}{\textwidth-\makecvtitledetailswidth-\makecvtitlepicturewidth}}%
     {}%
-  \begin{minipage}[b]{\makecvtitlenamewidth}%
+  \begin{minipage}[b]{\makecvheadnamewidth}%
     \namestyle{\@firstname\ \@lastname}%
     \ifthenelse{\equal{\@title}{}}{}{\\[1.25em]\titlestyle{\@title}}%
   \end{minipage}%
