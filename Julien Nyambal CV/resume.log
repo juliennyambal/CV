@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.26)  8 OCT 2022 17:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.26)  23 OCT 2022 19:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -611,7 +611,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 62.
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-48.
+71.
 (c:/texlive/2022/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [1
@@ -627,11 +627,11 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: 56C46C0EE68C9F3CFE0590735AE3D433;1112.
  ) 
 Here is how much of TeX's memory you used:
- 16189 strings out of 478268
- 310260 string characters out of 5850345
- 627746 words of memory out of 5000000
+ 16187 strings out of 478268
+ 310240 string characters out of 5850345
+ 630746 words of memory out of 5000000
  34003 multiletter control sequences out of 15000+600000
- 544196 words of font info for 142 fonts, out of 8000000 for 9000
+ 544113 words of font info for 141 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,12n,77p,1003b,758s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2022
@@ -645,7 +645,7 @@ r10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive
 nts/type1/public/lm/lmri10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/l
 m/lmro10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/marvosym/marvosym.p
 fb>
-Output written on resume.pdf (4 pages, 242821 bytes).
+Output written on resume.pdf (4 pages, 243701 bytes).
 PDF statistics:
  142 PDF objects out of 1000 (max. 8388607)
  112 compressed objects within 2 object streams
