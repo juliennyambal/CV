@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.19)  21 MAR 2023 20:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.19)  15 MAY 2023 10:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -609,30 +609,30 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 62.
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-28.
+29.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-
+ [4]
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
 (bibentry)                You may not be able to run BibTeX.
 
-[4] (./resume.aux)
+[5] (./resume.aux)
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: 56C46C0EE68C9F3CFE0590735AE3D433;1112.
  ) 
 Here is how much of TeX's memory you used:
- 16193 strings out of 478268
- 311828 string characters out of 5846347
- 628743 words of memory out of 5000000
+ 16198 strings out of 478268
+ 311882 string characters out of 5846347
+ 629743 words of memory out of 5000000
  34003 multiletter control sequences out of 15000+600000
- 544373 words of font info for 144 fonts, out of 8000000 for 9000
+ 544585 words of font info for 146 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,13n,77p,1003b,758s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 71i,12n,77p,1003b,758s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
 cal/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2
 022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2022/texmf-dist
@@ -645,10 +645,10 @@ e/2022/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2022/texm
 f-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2022/texmf-dist/fon
 ts/type1/public/lm/lmro10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/p
 ublic/marvosym/marvosym.pfb>
-Output written on resume.pdf (4 pages, 244791 bytes).
+Output written on resume.pdf (5 pages, 245879 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 112 compressed objects within 2 object streams
- 13 named destinations out of 1000 (max. 500000)
+ 148 PDF objects out of 1000 (max. 8388607)
+ 117 compressed objects within 2 object streams
+ 14 named destinations out of 1000 (max. 500000)
  41025 words of extra memory for PDF output out of 42996 (max. 10000000)
 
